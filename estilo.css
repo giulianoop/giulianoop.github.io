@@ -1,0 +1,177 @@
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    /*Zerar o margin e padding por padrão*/
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+    
+/*Centralizar a div conforme está no comentario html, toda pagina vai ficar no centro*/
+#principal{
+    width: 1080px; /*Esse é o tamanho da minha imagem e a div vai ficar alinhada a ela*/
+    margin: 20px auto; /*Distanciar a imagem da margem, nesse caso deu distanciou de cima */
+}
+
+.header-top{
+    height: 40px; /*altura, a imagem vai 50px para cima, mas mantem o mesmo tamannho*/
+    background:#310350;
+    position: relative; /*Para as Li se relacionarem com a parte interna do menu*/
+    
+    
+}
+
+/*Formatando menu*/
+
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav li{
+    list-style: none; /*Retirar ponto de marcação da li*/
+    display: inline-block;
+    margin-right: 0 10px 0 0;
+    font-size: 15px;
+    padding: 1em;
+    
+}
+
+.header-nav a{
+    color: white;
+    text-decoration: none; /*Retirar sublilhado da tag a*/
+    text-transform: uppercase; /*Para retirar letras quando texto estiver todo maiusculo*/
+    
+    
+}
+
+.header-nav a:hover{
+    color: black;
+}
+
+.descricao{
+    padding: 50px 100px; /*Distanciamento para cima, baixo e lados*/
+    text-align: center;
+}
+
+.descricao h1{
+    font-size: 32px;
+    color: #2c2c30;
+    
+
+}
+
+.descricao p{
+    color: #2c2c30;
+    line-height: 2; /*Serve para dar o espaçamento entre as palavras*/
+    font-size: 16px;
+    text-align: center;
+}
+
+.galery{
+    color: #2c2c30;
+    line-height: 2;
+    padding: 0 100px;
+    overflow: auto;
+    margin-bottom: 1em;
+    display: flex;
+    
+}
+
+.card{
+    width: 32%;
+    float: left; /*Organizei os blocos em linha*/
+    text-align: center;
+}
+
+.galery-img{
+    text-transform: uppercase; /*COLOCAR TUDO EM MAIUSCULO*/
+    letter-spacing: 5px;
+    
+}
+.joao {
+    display: flex;
+    width: 100%;
+    height: 40vh;
+}
+.blocobia {
+    text-align: center;
+}
+.blocoelena {
+    text-align: center;
+}
+.blocojoao {
+    text-align: center;
+}
+.bia {
+    display: flex;
+    width: 100%;
+    height: 40vh;
+}
+.elena {
+    display: flex;
+    width: 110%;
+    height: 40vh;
+}
+
+.div-button{ 
+    display: inline-block;
+    background: #363636;
+    padding: 1em;
+    width: 15em;
+    /*o border radius serve para dá forma ao botão, eu preferir deixar mais arredondado*/
+    border-radius: 10px;
+    margin-left: 24em;
+
+    
+}
+
+.div-button a{ 
+    background: #363636;
+    padding:  0.5em;
+    color: #a1a1a5;
+    text-decoration: none;
+    font-size: 32px;
+    
+    
+}
+.div-button a:hover{
+        color: rgb(255, 255, 255); 
+}
+
+.maps{
+    width: 100%;
+    margin-top: 6em;
+    height: 300px;
+    
+    
+    
+}
+
+.maps h2{
+    font-size: 32px;
+    color: #2c2c30; 
+    position: relative;
+    text-align: center;
+    width: 1024px;
+}
+
+iframe{
+    width: 1070px;
+    text-align: center;
+}
+
+.rodape{
+        background: #363636;
+        font-size: 16px;
+        color: #f4f4fa;
+        letter-spacing: 5px;
+        width: 1024px;
+        text-align: center;
+        padding: 25px;
+        position: absolute;
+        margin-top: 17%;
+        overflow: auto;
+}
